@@ -3,9 +3,8 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { GiftedChat } from 'react-native-gifted-chat';
 import { Dialogflow_V2 } from 'react-native-dialogflow';
-
 import { dialogflowConfig } from './env';
-
+import axios from 'axios';
 const BOT_USER = {
   _id: 2,
   name: 'FAQ Bot',
@@ -34,9 +33,18 @@ class App extends Component {
   }
 
   handleGoogleResponse(result) {
-    console.log(result.queryResult.fulfillmentMessages[0].simpleResponses["Object"])
-    // let text = JSON.parse(result.queryResult.fulfillmentMessages[0]).simpleResponses.simpleReponses[0].textToSpeech;
-    // this.sendBotResponse(JSON.stringify(text));
+    console.log(result.queryResult)
+    let text = ""
+    if(result.queryResult.fulfillmentMessages[0].simpleResponses== undefined){
+      text = result.queryResult.fulfillmentMessages[0].text.text[0];
+
+    }
+    else {
+      text = JSON.parse(JSON.stringify(result.queryResult.fulfillmentMessages[0].simpleResponses)).simpleResponses[0].textToSpeech ;
+    }
+    
+    this.sendBotResponse(text);
+    
   }
 
   onSend(messages = []) {
@@ -47,7 +55,7 @@ class App extends Component {
     let message = messages[0].text;
     Dialogflow_V2.requestQuery(
       message,
-      result => this.handleGoogleResponse(result).then(console.log(data)),
+      result => this.handleGoogleResponse(result),
       error => console.log(error)
     );
   }
