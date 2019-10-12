@@ -1,0 +1,12 @@
+export const dialogflowConfig = {
+    type: 'service_account',
+    project_id: 'music-iwafam',
+    private_key_id: '0022efb52ef6a8b1e17b260160ec7bc4f66e1f09',
+    private_key: '-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC5Eit7niiFquxS\nlszR8ZEA9TLIf7xeMy2O2UJ07P8LqtjbKO8oBv4iCoHbXN98mjr2/UlB4+F28nxt\n8x98MnUk/2epspoHa9nAXK9fwBc1J7cIz3OUz5BK/iHCpjaRDYTYaubHy1bIKuUU\nNNfFP1qiRMup5gvrb/S5BJrQuGQet38BAT3E3WZFSGxWocjdkB5ntCOJih63u0I9\n2oB8y1xeyy1SphEfes3grpz7wqb73fEJ5g2J2CRYK+eW78j8awT2saEJJkTgcyiv\n90D3xGgjOGkD2JPbpyIPfEIO9ElW9YqZBZlSAWwvpu9u+k77kjmcxohELmIF4Env\nIAWHSoivAgMBAAECggEAAtefGFZs++SMnZYYTi8eEXwyi/a+P1oc3IFEroQHRLga\nfX8q8RvuYjp0FRjfi8vYlPt92Qe1ajy+IXgm5yLlPqy3fFk0WWHUJcqmnNtX3+ac\nvoNlHId1iVlOzmz8EI07GZHGupHKYueZvg4ztCFNdImG8TSJwVNmWEMUV5lFXF1h\nXCVTiTdh/9487lCho572o4PmwS8OrFyOZR+MROhJsiCa+qwLNu9daowKuCRQvPGA\nNi+Ra9UnUIntEBCjjzRzvxG/60chht4McLfI39ygkNQNR95Yy3lI0lKxId8BWsE2\n8nh4ETuDd/wzEBkRSAnWmfXZP7B3nMLiqS5WDej+gQKBgQDvYT8JEeNU118ktX1D\nW1bPGi2x4o+2YjCXklIIpIwzLz2enQdenTIgEMiBGCGwIDGl9Om9UzvkQmmq5fEM\n1VHWjuEcf+O7c2hKpt1VjS4X8wbbho8QE+D3azMpCUry9PhE9YDRnz/dk3IRWzNf\nebGkv/dUG5NUsEWR11a2B2XkLwKBgQDF66I9NXo0NgWQO2NbWaEk9aNe76RY94CO\nAqlOZcazkmrP4PrtRLY2i76eEWcA91YHwoGQVX6U3Fej1M6BLxt7mCQzZH58M0lb\nvgMBQL8ngQvBJFxLfPnZ2/vqNM7L0yfzcAjnUC0YNkxBUvL337NmPbpr2dSVu7mk\nXTlKWZoDgQKBgQDDFMxLNvG99ZrLDsDbwLc5Jktw+YNHDjQtgggqlPbQy8H63lvg\nJllwOl08n47suv/bEIHgUdGwTtNQe/37CGmeYmhgUnUkEYQ/ukcMbnbO+7Zt9vXm\nE102JX3XBoS3BR7DDBQEQTTJ/VxrepieSU2VRwBn4eUqklDP7t7yj4rg7wKBgCwm\n8L5u26AiHQOb/AI48HXqRlO7ahJexFLpzRMsKTOOCj3tloyvs2Zfrlpcz3mrs4lv\nnq+wItjafsKRiq/O7naX7ht4466ZUlgg/1KcOwh5BUJE9kHw01wCcyRAO5HEvTjV\nWWcgv66TDlfURVd+k+rPAnNk2MO+aR99nHY1nuIBAoGBAIzdPmWb7VLUx87A/Qim\nF17Zsw/r9CazvvnnuvIiJAbLuHWI8kfDEGkKCjDXQGb7FpiNQiE8xgBcMB1eh2Qv\nnJmYQUEW2OanyN0rdHgZLEln7bFuXoJmHs8o0F5B/mi1rtpMgF46L9cBSrFYiwg3\ntxcsX/ymA4HpSCt3/DXszarW\n-----END PRIVATE KEY-----\n',
+    client_email: 'dialogflow-cwhcsa@music-iwafam.iam.gserviceaccount.com',
+    client_id: '109802122805591793500',
+    auth_uri: 'https://accounts.google.com/o/oauth2/auth',
+    token_uri: 'https://oauth2.googleapis.com/token',
+    auth_provider_x509_cert_url: 'https://www.googleapis.com/oauth2/v1/certs',
+    client_x509_cert_url: 'https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-cwhcsa%40music-iwafam.iam.gserviceaccount.com'
+  }
